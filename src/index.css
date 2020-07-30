@@ -1,10 +1,17 @@
 * {
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'valorant_font', sans-serif;
+}
+
+@font-face {
+  font-family: 'valorant_font';
+  src: url('../src/assets/fonts/valorant_font.ttf');
+  font-weight: normal;
+  font-style: normal;
 }
 
 :root {
-  --primary: #2A7AE4;
+  --primary: #E54B4D;
   --black: #000000;
   --blackLighter: #9E9E9E;
   --grayLight: #F5F5F5;
